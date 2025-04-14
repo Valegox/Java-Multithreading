@@ -27,7 +27,7 @@ public class pc_static_block {
         long endTime = System.currentTimeMillis();
         long timeDiff = endTime - startTime;
         System.out.println("Program Execution Time: " + timeDiff + "ms");
-        float performance = (float)100/timeDiff;
+        float performance = (float)1/timeDiff;
         System.out.println("Program Performance: " + performance);
         System.out.println("1..." + (NUM_END-1) + " prime# counter=" + counter.getCounter());
     }
