@@ -111,7 +111,7 @@ class MatmultD_counter
     this.ans = new int[m][p];
   }
 
-  public synchronized void setLine(int i, int[] line) {
+  public void setLine(int i, int[] line) {
     ans[i] = line;
   }
 
